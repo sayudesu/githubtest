@@ -29,7 +29,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		//フォント変更
 		ChangeFont("ＭＳ 明朝");
 		//フォントサイズを変更
-		SetFontSize(1);
+		SetFontSize(64);
 		//文字を表示
 		DrawString(Game::kScreenWidth /2, Game::kScreenHeight /2,"github test",GetColor(255,255,255));
 
